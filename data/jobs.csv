@@ -1,0 +1,10 @@
+﻿job_id,title,company,location,job_type,experience_level,required_skills,description
+1,Python Developer,TechNova,Bengaluru,Full-time,Fresher,"Python,SQL,FastAPI,Git","Develop Python applications and REST APIs."
+2,Frontend Developer,WebCraft,Bengaluru,Full-time,Fresher,"HTML,CSS,JavaScript,React,Git","Build responsive and interactive web applications."
+3,Full Stack Developer,CodeSphere,Hyderabad,Full-time,Entry-level,"HTML,CSS,JavaScript,React,Node.js,SQL","Develop frontend and backend web applications."
+4,Machine Learning Engineer,DataMind,Remote,Full-time,Entry-level,"Python,Machine Learning,NumPy,Pandas,Scikit-learn","Develop and evaluate machine learning models."
+5,Cloud Engineer,SkyStack,Pune,Full-time,Fresher,"AWS,Linux,Python,Docker,Git","Work with cloud infrastructure and deployment."
+6,Java Developer,InnovateX,Chennai,Full-time,Fresher,"Java,SQL,Spring Boot,Git","Develop and maintain Java-based applications."
+7,Data Analyst,InsightWorks,Remote,Full-time,Entry-level,"Python,SQL,Excel,Power BI,Pandas","Analyze datasets and generate business insights."
+8,Backend Developer,DevBridge,Bengaluru,Full-time,Entry-level,"Python,FastAPI,PostgreSQL,REST API,Docker","Build backend services and database integrations."
+'@ | Set-Content -Encoding utf8 ..\data\jobs.csv
